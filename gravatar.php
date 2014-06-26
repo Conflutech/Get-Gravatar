@@ -32,6 +32,6 @@ function get_gravatar( $email, $s = 80, $d = 'mm', $r = 'g', $img = false, $atts
     return $url;
 }
 ?>
-<img src="<?php echo get_gravatar("youremailhere" ,"",'mm'); ?>" alt="" />
+<img src="<?php echo get_gravatar("email@yourdomain.com" ,"",'mm'); ?>" alt="" />
 </body>
 </html>
